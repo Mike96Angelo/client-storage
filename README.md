@@ -74,3 +74,8 @@ StorageSession Methods:
         No arguments!
         does:
             removes all stored data in session storage
+            
+Created By:
+	
+	Michaelangelo Jong
+	
