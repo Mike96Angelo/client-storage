@@ -13,25 +13,25 @@ StorageLocal Methods:
             key is the reference to the stored data
             val is the data to be stored
         does:
-            creates key to refference the stored data
+            creates key to reference the stored data
             writes the data to local storage
             
     storageLocal.get(key)
         where:
             key is the reference to the stored data
         does:
-            returns the stored data refferenced by the key
+            returns the stored data referenced by the key
             
     storageLocal.getAll()
         No arguments!
         does:
-            returns an object refferencing keys to stored data
+            returns an object referencing keys to stored data
     
     storageLocal.remove(key)
         where:
             key is the reference to the stored data
         does:
-            removes the stored data refferenced by the key
+            removes the stored data referenced by the key
             
     storageLocal.removeAll()
         No arguments!
@@ -50,25 +50,25 @@ StorageSession Methods:
             key is the reference to the stored data
             val is the data to be stored
         does:
-            creates key to refference the stored data
+            creates key to reference the stored data
             writes the data to session storage
             
     storageSession.get(key)
         where:
             key is the reference to the stored data
         does:
-            returns the stored data refferenced by the key
+            returns the stored data referenced by the key
             
     storageSession.getAll()
         No arguments!
         does:
-            returns an object refferencing keys to stored data
+            returns an object referencing keys to stored data
     
     storageSession.remove(key)
         where:
             key is the reference to the stored data
         does:
-            removes the stored data refferenced by the key
+            removes the stored data referenced by the key
             
     storageSession.removeAll()
         No arguments!
