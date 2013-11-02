@@ -7,7 +7,7 @@
 *******End of notes*******/
 
 /*******Local Storage Object*******/
-function LocalStorage() {
+function StorageLocal() {
     'use strict';
 //Methods
     function set(key, val) {
@@ -49,7 +49,7 @@ function LocalStorage() {
 }
 
 /*******Session Storage Object*******/
-function SessionStroage() {
+function StroageSession() {
     'use strict';
 //Methods
     function set(key, val) {
