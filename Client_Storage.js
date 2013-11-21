@@ -16,15 +16,13 @@ function ClientStorage(storage) {
             storage.setItem(key, JSON.stringify(val));
             return this.get(key);
         }
-        return false;
     };
     this.get = function (key) {
         var value;
         if (this.has(key)) {
             value = JSON.parse(storage.getItem(key));
-            return value;
         }
-        return false;
+        return value;
     };
     this.getAll = function () {
         var key, values = {};
@@ -55,7 +53,7 @@ function ClientCache(storage) {
     'use strict';
     storage  = new ClientStorage(storage);
     var date = new Date();
-
+//Methods
     this.set = function (key, val) {
         var cache = {};
 
@@ -78,7 +76,6 @@ function ClientCache(storage) {
         if (this.isCache(cache)) {
             return cache.cache;
         }
-        return false;
     };
     this.getAll = function () {
         return false;
